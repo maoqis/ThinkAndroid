@@ -90,5 +90,11 @@ public class ThinkAndroidMainActivity extends ThinkAndroidBaseActivity
 		testHTTPCacheButton.setOnClickListener(onClickListener);
 		testDownloadButton.setOnClickListener(onClickListener);
 		testOtherButton.setOnClickListener(onClickListener);
+		
+	}
+	@Override
+	public void onBackPressed() {
+		// TODO Auto-generated method stub
+		super.onBackPressed();
 	}
 }
